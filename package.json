@@ -1,0 +1,24 @@
+{
+  "name": "is_letter_a",
+  "version": "0.0.1",
+  "description": "Tests if argument is the letter A",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle138/isLetterA.git"
+  },
+  "keywords": [
+    "Is",
+    "Letter",
+    "A"
+  ],
+  "author": "kyle138@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyle138/isLetterA/issues"
+  },
+  "homepage": "https://github.com/kyle138/isLetterA#readme"
+}
