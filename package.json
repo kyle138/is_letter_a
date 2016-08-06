@@ -1,6 +1,6 @@
 {
   "name": "is_letter_a",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tests if argument is the letter A",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyle138/isLetterA.git"
+    "url": "git+https://github.com/kyle138/is_letter_a.git"
   },
   "keywords": [
     "Is",
@@ -18,7 +18,7 @@
   "author": "kyle138@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kyle138/isLetterA/issues"
+    "url": "https://github.com/kyle138/is_letter_a/issues"
   },
-  "homepage": "https://github.com/kyle138/isLetterA#readme"
+  "homepage": "https://github.com/kyle138/is_letter_a#readme"
 }
