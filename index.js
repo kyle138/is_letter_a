@@ -16,6 +16,9 @@ module.exports = function(input) {
     case 'å': // Latin Small Letter A with ring above
     case 'ª': // Feminine Ordinal Indicator
       return true;
+    case 'Æ': // Grapheme ligature of A and E
+    case 'æ': // Grapheme ligature of a and e
+      return '¯\\_(ツ)_/¯';
     default:
       return false;
   }
