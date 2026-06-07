@@ -6,15 +6,23 @@ npm install is_letter_a --save
 
 ## Usage
 ```javascript
-var is_letter_a = require('is_letter_a');
+import isLetterA from 'is_letter_a';
 
 // Basic usage
 is_letter_a('a'); //true
 is_letter_a('A'); //true
+is_letter_a('ӓ'); //true
+is_letter_a('ª'); //true
+is_letter_a('α'); //true
 is_letter_a('b'); //false
 is_letter_a('cat'); //false
 
-// Now with international support!
+// Verbose usage, returns description of A variant.
+isLetterA('á', { verbose: true }); // returns 'Latin Small Letter A with acute'
+isLetterA('æ', { verbose: true }); // returns 'Grapheme ligature of a and e'
+isLetterA('Z', { verbose: true }); // returns 'Not any kind of A'
+
+// Also with international support!
 is_letter_a('Ӑ'); //true
 is_letter_a('ӑ'); //true
 is_letter_a('Ӓ'); //true
