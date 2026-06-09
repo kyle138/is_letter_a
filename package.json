@@ -1,24 +1,33 @@
 {
   "name": "is_letter_a",
-  "version": "2.1.1",
-  "description": "Tests if argument is the letter A",
+  "version": "3.0.0",
+  "description": "Tests if argument is the letter A with optional description.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kyle138/is_letter_a.git"
   },
   "keywords": [
-    "Is",
-    "Letter",
-    "A"
+    "is-letter-a",
+    "a",
+    "letter-a",
+    "is-a",
+    "unicode",
+    "cyrillic",
+    "greek",
+    "ligatures"
   ],
   "author": "kyle138@gmail.com",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/kyle138/is_letter_a/issues"
   },
-  "homepage": "https://github.com/kyle138/is_letter_a#readme"
+  "homepage": "https://github.com/kyle138/is_letter_a#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
